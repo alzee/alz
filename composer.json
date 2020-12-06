@@ -1,0 +1,23 @@
+{
+    "name": "drupal/alz",
+    "description": "A minimalist theme based on bartik.",
+    "type": "drupal-theme",
+    "minimum-stability": "dev",
+    "homepage": "https://drupal.org/project/alz",
+    "authors": [
+        {
+            "name": "Al Zee",
+            "homepage": "https://alz.ee",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/alz",
+        "source": "https://git.drupalcode.org/project/alz"
+    },
+    "require": {
+        "drupal/core": "^8.8 || ^9"
+    },
+    "license": "GPL-2.0-or-later"
+
+}
