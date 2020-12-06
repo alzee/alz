@@ -1,0 +1,60 @@
+body {
+    background-color: unset;
+    padding: 0 15px;
+}
+.layout-container {
+	max-width: 960px;
+}
+table {
+	table-layout: fixed;
+}
+s {
+	color: grey;
+}
+.site-footer{
+	padding: 0;
+}
+code {
+    background: #f0f0f0;
+    padding: 1px 4px;
+    border-radius: .25em;
+}
+.views-row {
+    margin: 10px 0;
+    font-size: 18px;
+}
+a {
+    color: #555555;
+    border: 0;
+}
+
+a:hover, a:focus {
+    color: black;
+}
+.front .pager {
+    margin-top: 20px;
+}
+.front{
+    margin-top: 50px;
+}
+.front .pager__items {
+    text-align: left;
+}
+.pager__item {
+    padding: 0;
+}
+.pager__item a {
+    width: 30px;
+    text-align: center;
+}
+footer {
+    margin: 50px 0;
+}
+footer .menu-item {
+    display: inline;
+    margin-right: 20px;
+}
+.region-breadcrumb,
+ul.menu {
+    padding: 0;
+}
