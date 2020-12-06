@@ -11,7 +11,7 @@
 # 2. Sub-theme Bartik. This is only recommended if you want to make minor
 # tweaks and understand that Bartik could break your modifications as it
 # changes.
-name: alzee
+name: alz
 type: theme
 base theme: bartik
 description: 'A minimalist theme based on Bartik.'
@@ -19,7 +19,7 @@ package: Core
 # version: VERSION
 # core: 8.x
 libraries:
-  - alzee/global-styling
+  - alz/global-styling
 regions:
   breadcrumb: Breadcrumb
   content: Content
