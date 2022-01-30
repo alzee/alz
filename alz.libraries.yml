@@ -20,13 +20,14 @@ global:
     layout:
       css/layouts/layout.css: {}
     theme:
-      css/style.css: {}
+      css/theme/style.css: {}
+      css/theme/print.css: { media: print }
 
 highlight.js:
   css:
     theme:
       https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.4.0/build/styles/default.min.css: { type: external, minified: true }
-      css/highlight.css: {}
+      css/theme/highlight.css: {}
   js:
     https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.4.0/build/highlight.min.js: { type: external, minified: true }
     js/initHightlight.js: {}

@@ -1,0 +1,8 @@
+# Schema for the configuration files of the alz theme.
+alz.settings:
+  type: theme_settings
+  label: 'alz settings'
+  mapping:
+    font_size:
+      type: integer
+      label: Font size

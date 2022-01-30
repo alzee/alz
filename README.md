@@ -5,5 +5,5 @@ cd drupal-root/
 composer req drupal/alz
 ```
 
-![screenshot0](./screenshot_0.png)
+![screenshot0](./images/screenshot_0.png)
 ![screenshot](./screenshot.png)
