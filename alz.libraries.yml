@@ -1,12 +1,28 @@
-global-styling:
+global:
+  js:
+    js/main.js: {}
   css:
     base:
+      css/base/elements.css: {}
     component:
+      css/components/block.css: {}
+      css/components/breadcrumb.css: {}
+      css/components/field.css: {}
+      css/components/form.css: {}
+      css/components/header.css: {}
+      css/components/menu.css: {}
+      css/components/messages.css: {}
+      css/components/node.css: {}
+      css/components/sidebar.css: {}
+      css/components/table.css: {}
+      css/components/tabs.css: {}
+      css/components/buttons.css: {}
     layout:
+      css/layouts/layout.css: {}
     theme:
       css/style.css: {}
 
-highlight:
+highlight.js:
   css:
     theme:
       https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.4.0/build/styles/default.min.css: { type: external, minified: true }

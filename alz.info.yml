@@ -4,8 +4,8 @@ base theme: bartik
 description: 'A minimalist dark theme based on Bartik.'
 core_version_requirement: ^8 || ^9
 libraries:
-  - alz/global-styling
-  - alz/highlight
+  - alz/global
+  - alz/highlight.js
 regions:
   breadcrumb: Breadcrumb
   content: Content
