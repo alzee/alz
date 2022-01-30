@@ -1,7 +1,8 @@
 name: alz
 type: theme
 base theme: bartik
-description: 'A minimalist theme based on Bartik.'
+description: 'A minimalist dark theme based on Bartik.'
+core_version_requirement: ^8 || ^9
 package: Core
 libraries:
   - alz/global-styling
@@ -10,9 +11,3 @@ regions:
   breadcrumb: Breadcrumb
   content: Content
   footer: Footer
-
-# Information added by Drupal.org packaging script on 2016-06-01
-version: '8.1.2'
-core_version_requirement: ^8 || ^9
-project: 'drupal'
-datestamp: 1464825150
