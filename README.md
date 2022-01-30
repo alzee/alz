@@ -1,1 +1,1 @@
-### A minimalist theme based on bartik.
+#### A minimalist dark theme based on bartik, with highlight.js integrated.

@@ -1,6 +1,6 @@
 {
     "name": "drupal/alz",
-    "description": "A minimalist theme based on bartik.",
+    "description": "A minimalist dark theme based on bartik.",
     "type": "drupal-theme",
     "minimum-stability": "dev",
     "homepage": "https://drupal.org/project/alz",
