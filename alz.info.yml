@@ -3,7 +3,6 @@ type: theme
 base theme: bartik
 description: 'A minimalist dark theme based on Bartik.'
 core_version_requirement: ^8 || ^9
-package: Core
 libraries:
   - alz/global-styling
   - alz/highlight

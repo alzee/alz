@@ -1,5 +1,8 @@
 global-styling:
   css:
+    base:
+    component:
+    layout:
     theme:
       css/style.css: {}
 
