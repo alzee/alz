@@ -2,3 +2,10 @@ global-styling:
   css:
     theme:
       css/style.css: {}
+
+highlight:
+  css:
+    theme:
+      https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.4.0/build/styles/default.min.css: { type: external, minified: true }
+  js:
+    https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.4.0/build/highlight.min.js: { type: external, minified: true }
