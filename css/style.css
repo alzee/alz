@@ -1,11 +1,16 @@
+:root{
+  --bg-color: #000;
+  --bg-color-2: #212529;
+  --font-color: #d3d3d3;
+  --border-color: #252525;
+}
 body {
-  background: #000;
-  color: #d3d3d3;
+  background: var(--bg-color);
+  color: var(--font-color);
   padding: 1rem;
 }
-blockquote,
-code{
-  background: #212529;
+blockquote, code{
+  background: var(--bg-color-2);
 }
 .layout-container {
   max-width: 960px;
@@ -28,14 +33,10 @@ code {
   font-size: 18px;
 }
 a {
-  color: #d3d3d3 !important;
   border: 0;
 }
-h1, a:hover, a:focus {
-  color: #d3d3d3;
-}
-ul.menu a.is-active{
-  color: #d3d3d3;
+h1, a, a:hover, a:focus {
+  color: var(--font-color) !important;
 }
 .front .pager {
   margin-top: 20px;
@@ -63,4 +64,18 @@ footer .menu-item {
 .region-breadcrumb,
 ul.menu {
   padding: 0;
+}
+input[type="text"], textarea  {
+    background: var(--bg-color-2);
+    color: #fff !important;
+    border: 1px solid var(--border-color) !important;
+    padding: .3rem .5rem !important;
+}
+.filter-wrapper {
+    border: 1px solid var(--border-color);
+}
+.button{
+    background: var(--bg-color-2);
+    border: 1px solid var(--border-color);
+    color: var(--font-color);
 }
