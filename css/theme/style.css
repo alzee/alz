@@ -124,3 +124,9 @@ textarea{
 .toolbar .toolbar-tray-vertical{
   border-right: none;
 }
+.messages--status{
+  color: #fff;
+  border-color: unset;
+  background-color: var(--bg-color-2);
+  box-shadow: -8px 0 0 #fff;
+}
