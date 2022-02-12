@@ -89,20 +89,18 @@ input[type="text"], textarea  {
   background-color: #454545;
 }
 .toolbar-tray-horizontal .menu-item:hover{
-  background-color: #000000;
+  background-color: var(--bg-color);
 }
 .toolbar .level-2 > ul{
-  background-color: #000000;
-}
-.toolbar-horizontal .toolbar-tray{
+  background-color: var(--bg-color);
 }
 .tabs ul.primary li.is-active a{
-  background-color: #212529;
+  background-color: var(--bg-color-2);
 }
 .tabs ul.primary li a{
-  background-color: #212529;
+  background-color: var(--bg-color-2);
   text-shadow: none;
 }
 .toolbar button.toolbar-icon{
-  background-color: #000000;
+  background-color: var(--bg-color);
 }
