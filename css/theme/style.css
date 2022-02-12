@@ -32,6 +32,15 @@ code {
   margin: 10px 0;
   font-size: 18px;
 }
+a {
+  border: 0;
+}
+.node__content a {
+  border-bottom: 1px dotted;
+}
+.node__content a:hover {
+  border-bottom-style: solid;
+}
 h1, a, a:hover, a:focus {
   color: var(--font-color) !important;
 }
