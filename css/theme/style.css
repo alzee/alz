@@ -82,6 +82,9 @@ input[type="text"], textarea  {
 .toolbar .toolbar-menu{
   background-color: #0f0f0f;
 }
+.toolbar .toolbar-tray{
+  background-color: #0f0f0f;
+}
 .toolbar-tray-horizontal .menu-item--expanded{
   background-color: #454545;
 }
@@ -98,4 +101,8 @@ input[type="text"], textarea  {
 }
 .tabs ul.primary li a{
   background-color: #212529;
+  text-shadow: none;
+}
+.toolbar button.toolbar-icon{
+  background-color: #000000;
 }
