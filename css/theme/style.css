@@ -32,9 +32,6 @@ code {
   margin: 10px 0;
   font-size: 18px;
 }
-a {
-  border: 0;
-}
 h1, a, a:hover, a:focus {
   color: var(--font-color) !important;
 }
