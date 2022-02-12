@@ -65,22 +65,25 @@ footer .menu-item {
 ul.menu {
   padding: 0;
 }
+input.button{
+  border-radius: 4px;
+}
 input[type="text"],
 input[type="password"],
 textarea{
-    background: var(--bg-color-2);
-    color: #fff !important;
-    border: 1px solid var(--border-color) !important;
-    padding: .3rem .5rem !important;
-    border-radius: 4px;
+  background: var(--bg-color-2);
+  color: #fff !important;
+  border: 1px solid var(--border-color) !important;
+  padding: .3rem .5rem !important;
+  border-radius: 4px;
 }
 .filter-wrapper{
-    border: 1px solid var(--border-color);
+  border: 1px solid var(--border-color);
 }
 .button{
-    background: var(--bg-color-2);
-    border: 1px solid var(--border-color);
-    color: var(--font-color);
+  background: var(--bg-color-2);
+  border: 1px solid var(--border-color);
+  color: var(--font-color);
 }
 .toolbar button.toolbar-icon,
 .toolbar .toolbar-toggle-orientation,
