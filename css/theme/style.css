@@ -65,13 +65,16 @@ footer .menu-item {
 ul.menu {
   padding: 0;
 }
-input[type="text"], textarea  {
+input[type="text"],
+input[type="password"],
+textarea{
     background: var(--bg-color-2);
     color: #fff !important;
     border: 1px solid var(--border-color) !important;
     padding: .3rem .5rem !important;
+    border-radius: 4px;
 }
-.filter-wrapper {
+.filter-wrapper{
     border: 1px solid var(--border-color);
 }
 .button{
@@ -79,6 +82,8 @@ input[type="text"], textarea  {
     border: 1px solid var(--border-color);
     color: var(--font-color);
 }
+.toolbar button.toolbar-icon,
+.toolbar .toolbar-toggle-orientation,
 .toolbar .toolbar-menu,
 .toolbar .toolbar-tray{
   background-color: #0f0f0f;
@@ -86,17 +91,24 @@ input[type="text"], textarea  {
 .toolbar-tray-horizontal .menu-item--expanded{
   background-color: #454545;
 }
+.toolbar .level-2 > ul,
+.toolbar button.toolbar-icon,
+.toolbar-tray-horizontal .menu-item a:focus,
 .toolbar-tray-horizontal .menu-item:hover{
-  background-color: var(--bg-color);
-}
-.toolbar .level-2 > ul{
   background-color: var(--bg-color);
 }
 .tabs ul.primary li a,
 .tabs ul.primary li.is-active a{
   background-color: var(--bg-color-2);
   text-shadow: none;
+  border: none;
 }
-.toolbar button.toolbar-icon{
-  background-color: var(--bg-color);
+.toolbar li.menu-item{
+  border: none !important;
+}
+.toolbar-horizontal .toolbar-tray{
+  border-bottom: none;
+}
+.toolbar-horizontal .toolbar-tray .toolbar-toggle-orientation{
+  border-left: none;
 }
