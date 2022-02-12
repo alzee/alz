@@ -70,6 +70,7 @@ input.button{
 }
 input[type="text"],
 input[type="password"],
+input[type="search"],
 textarea{
   background: var(--bg-color-2);
   color: #fff !important;
@@ -95,7 +96,6 @@ textarea{
   background-color: #454545;
 }
 .toolbar .level-2 > ul,
-.toolbar button.toolbar-icon,
 .toolbar-tray-horizontal .menu-item a:focus,
 .toolbar-tray-horizontal .menu-item:hover{
   background-color: var(--bg-color);
@@ -106,6 +106,12 @@ textarea{
   text-shadow: none;
   border: none;
 }
+.tabs ul.tabs.primary{
+  background: none;
+}
+.tabs ul.primary li.is-active a{
+  border-bottom:: 1px solid #fff;;
+}
 .toolbar li.menu-item{
   border: none !important;
 }
@@ -114,4 +120,7 @@ textarea{
 }
 .toolbar-horizontal .toolbar-tray .toolbar-toggle-orientation{
   border-left: none;
+}
+.toolbar .toolbar-tray-vertical{
+  border-right: none;
 }
