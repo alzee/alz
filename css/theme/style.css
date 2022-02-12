@@ -130,3 +130,6 @@ textarea{
   background-color: var(--bg-color-2);
   box-shadow: -8px 0 0 #fff;
 }
+.node--unpublished{
+  background-color: unset;
+}
