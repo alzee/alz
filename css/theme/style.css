@@ -79,9 +79,7 @@ input[type="text"], textarea  {
     border: 1px solid var(--border-color);
     color: var(--font-color);
 }
-.toolbar .toolbar-menu{
-  background-color: #0f0f0f;
-}
+.toolbar .toolbar-menu,
 .toolbar .toolbar-tray{
   background-color: #0f0f0f;
 }
@@ -94,10 +92,8 @@ input[type="text"], textarea  {
 .toolbar .level-2 > ul{
   background-color: var(--bg-color);
 }
+.tabs ul.primary li a,
 .tabs ul.primary li.is-active a{
-  background-color: var(--bg-color-2);
-}
-.tabs ul.primary li a{
   background-color: var(--bg-color-2);
   text-shadow: none;
 }
