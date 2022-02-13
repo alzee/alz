@@ -35,12 +35,6 @@ code {
 a {
   border: 0;
 }
-.node__content a {
-  border-bottom: 1px dotted;
-}
-.node__content a:hover {
-  border-bottom-style: solid;
-}
 h1, a, a:hover, a:focus {
   color: var(--font-color) !important;
 }
@@ -141,36 +135,45 @@ textarea{
 .toolbar .toolbar-icon.toolbar-handle:focus{
   background-color: unset;
 }
-sup:before {
-  content: "[";
-}
-sup:after {
-  content: "]";
-}
-.node__content sup a,
-.footnote a{
-  border-bottom: 0;
-}
-.footnote>p {
-  margin: 0;
-}
-h2{
-  position: relative;
-}
-h2 a.heading-permalink {
-  border-bottom: 0;
-  opacity: 0;
-  position: absolute;
-  left: -.7rem;
-  transition: opacity .3s;
-}
-h2:hover a.heading-permalink {
-  opacity: 1;
-}
 .node__content{
   margin-top: 1rem;
-}
-.node__content .field--name-body h2 {
-  font-weight: bold;
-  font-size: 1.2rem;
+  .field--name-body{
+    a{
+      border-bottom: 1px dotted;
+      &:hover{
+        border-bottom-style: solid;
+      }
+    }
+    h2{
+      font-size: 1.2rem;
+    }
+    h2, h3, h4, h5, h6{
+      font-weight: bold;
+      position: relative;
+      &:hover a.heading-permalink {
+        opacity: 1;
+      }
+      a.heading-permalink {
+        border-bottom: 0;
+        opacity: 0;
+        position: absolute;
+        left: -.7rem;
+        transition: opacity .3s;
+      }
+    }
+    sup{
+      &:before{
+        content: "[";
+      }
+      &:after{
+        content: "]";
+      }
+    }
+    .footnote>p {
+      margin: 0;
+    }
+    sup a, .footnote a{
+      border-bottom: 0;
+    }
+  }
 }
