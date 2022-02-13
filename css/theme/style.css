@@ -152,12 +152,17 @@ sup:after {
 .footnote>p {
   margin: 0;
 }
-a.heading-permalink {
+h2{
+  position: relative;
+}
+h2 a.heading-permalink {
   border: 0;
   margin-right: .2rem;
   margin-left: -1.2rem;
   opacity: 0;
   animation: fade-out 2s both;
+  position: absolute;
+  left: -.7rem;
 }
 h2:hover a.heading-permalink {
   opacity: 1;
