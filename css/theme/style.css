@@ -147,7 +147,8 @@ sup:before {
 sup:after {
   content: "]";
 }
-.node__content sup a {
+.node__content sup a,
+.footnote a{
   border-bottom: 0;
 }
 .footnote>p {
