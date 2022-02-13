@@ -1,26 +1,26 @@
 global:
   js:
-    js/main.js: {}
+    js/main.js: { minified: true }
   css:
     base:
-      css/base/elements.css: {}
+      css/base/elements.css: { minified: true }
     component:
-      css/components/block.css: {}
-      css/components/breadcrumb.css: {}
-      css/components/field.css: {}
-      css/components/form.css: {}
-      css/components/header.css: {}
-      css/components/menu.css: {}
-      css/components/messages.css: {}
-      css/components/node.css: {}
-      css/components/sidebar.css: {}
-      css/components/table.css: {}
-      css/components/tabs.css: {}
-      css/components/buttons.css: {}
+      css/components/block.css: { minified: true }
+      css/components/breadcrumb.css: { minified: true }
+      css/components/field.css: { minified: true }
+      css/components/form.css: { minified: true }
+      css/components/header.css: { minified: true }
+      css/components/menu.css: { minified: true }
+      css/components/messages.css: { minified: true }
+      css/components/node.css: { minified: true }
+      css/components/sidebar.css: { minified: true }
+      css/components/table.css: { minified: true }
+      css/components/tabs.css: { minified: true }
+      css/components/buttons.css: { minified: true }
     layout:
-      css/layouts/layout.css: {}
+      css/layouts/layout.css: {minified: true }
     theme:
-      css/theme/style.css: {}
+      css/theme/style.css: { minified: true }
       css/theme/print.css: { media: print }
 
 highlight.js:
