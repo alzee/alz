@@ -103,6 +103,7 @@ textarea{
 }
 .toolbar .level-2 > ul,
 .toolbar-tray-horizontal .menu-item a:focus,
+.toolbar-tray-horizontal a:focus,
 .toolbar-tray-horizontal .menu-item:hover{
   background-color: var(--bg-color);
 }
@@ -138,4 +139,27 @@ textarea{
 }
 .node--unpublished{
   background-color: unset;
+}
+sup:before {
+  content: "[";
+}
+sup:after {
+  content: "]";
+}
+.node__content sup a {
+  border-bottom: 0;
+}
+.footnote>p {
+  margin: 0;
+}
+a.heading-permalink {
+  border: 0;
+  margin-right: .2rem;
+  margin-left: -1.2rem;
+  opacity: 0;
+  animation: fade-out 2s both;
+}
+h2:hover a.heading-permalink {
+  opacity: 1;
+  animation: fade-in 2s both;
 }
