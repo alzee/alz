@@ -137,7 +137,8 @@ textarea{
   background-color: var(--bg-color-2);
   box-shadow: -8px 0 0 #fff;
 }
-.node--unpublished{
+.node--unpublished,
+.toolbar .toolbar-icon.toolbar-handle:focus{
   background-color: unset;
 }
 sup:before {
