@@ -26,9 +26,9 @@ global:
 highlight.js:
   css:
     theme:
-      https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.4.0/build/styles/default.min.css: { type: external, minified: true }
+      css/highlight.min.css: {minified: true}
       css/theme/highlight_custom.css: {}
   js:
-    https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.4.0/build/highlight.min.js: { type: external, minified: true }
+    js/highlight.min.js: {minified: true}
     js/initHightlight.js: {}
 
