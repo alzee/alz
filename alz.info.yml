@@ -1,8 +1,8 @@
 name: alz
 type: theme
-base theme: bartik
-description: 'A minimalist dark theme based on Bartik.'
-core_version_requirement: ^8 || ^9
+base theme: false
+description: 'A minimalist dark theme.'
+core_version_requirement: ^8 || ^9 || ^10
 libraries:
   - alz/global
   - alz/highlight.js
